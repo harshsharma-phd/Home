@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh Sharma - Quantum Information Theory Researcher</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #001f3f;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 5px;
+        }
+        h2 {
+            color: #001f3f;
+        }
+        a {
+            color: #001f3f;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 600px) {
+            header, section {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Harsh Sharma - Quantum Information Theory Researcher</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#research">Research & Projects</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a PhD student at the Indian Institute of Technology Bombay specializing in Quantum Information Theory. My research focuses on Quantum Thermodynamics and Error Suppression in Collective Quantum Systems.</p>
+        <p>I hold an M.Sc. in Physics from IIT Palakkad, where my thesis was on enhancing the efficiency of quantum heat engines using kicked Ising systems. I also completed my B.Sc. (Hons.) in Physics at Pt. Ravishankar Shukla University.</p>
+    </section>
+    
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <ul>
+            <li>Globalink Research Award (2023) by Mitacs, Canada.</li>
+            <li>Prime Minister’s Research Fellowship (2022) from the Ministry of Education, Govt. of India.</li>
+            <li>Best M.Sc. Project in Physics, IIT Palakkad.</li>
+        </ul>
+    </section>
+    
+    <section id="research">
+        <h2>Research & Projects</h2>
+        <p>My primary areas of research include:</p>
+        <ul>
+            <li>Quantum Thermodynamics and its applications.</li>
+            <li>Error Suppression in Quantum Systems.</li>
+            <li>Quantum Heat Engines and their optimization.</li>
+            <li>Collective Quantum Systems and their dynamics.</li>
+        </ul>
+        <h3>Ongoing Projects</h3>
+        <ul>
+            <li>Collective charging of quantum battery with inhomogeneous spins.</li>
+            <li>Ergotropy-based measures of genuine multiparty entanglement in strongly correlated systems.</li>
+            <li>Tensor network error-correcting codes.</li>
+        </ul>
+    </section>
+    
+    <section id="publications">
+        <h2>Publications</h2>
+        <ul>
+            <li><a href="https://doi.org/10.1088/1751-8121/ad38ee">Improving performance of quantum heat engines using modified Otto cycle</a> - Journal of Physics A, 2024.</li>
+            <li><a href="https://arxiv.org/abs/2408.11628">Quantum error correction for unresolvable spin ensemble</a> - Preprint on arXiv, 2024.</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:harsh.sharma@iitb.ac.in">harsh.sharma@iitb.ac.in</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/harshsharma0810" target="_blank">linkedin.com/in/harshsharma0810</a></p>
+        <p>ORCID: <a href="https://orcid.org/0000-0003-XXXX-XXXX" target="_blank">ORCID Profile</a></p>
+    </section>
+    
+    <script>
+        // Smooth scroll functionality for navigation
+        document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelectorAll('nav ul li a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    const sectionId = this.getAttribute('href').substring(1);
+                    const section = document.getElementById(sectionId);
+                    if (section) {
+                        section.scrollIntoView({ behavior: 'smooth' });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
